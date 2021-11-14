@@ -14425,7 +14425,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="1)">1)<a class="anchor-link" href="#1)">&#182;</a></h3><p>When the initial values are plotted, circular pattern with different radius for each class is observed. Since PCA is used for linear relationships and the plot does not imply any linear relationship, it wouldn't expect PCA to work. When the first component is checked it appears this statetement is true.</p>
+<h4 id="1)">1)<a class="anchor-link" href="#1)">&#182;</a></h4><p>When the initial values are plotted, circular pattern with different radius for each class is observed. Since PCA is used for linear relationships and the plot does not imply any linear relationship, it wouldn't expect PCA to work. When the first component is checked it appears this statetement is true.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14469,6 +14469,18 @@ Difference: Scaled X1-PC1 1.2820719972542827
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Basically it selects X1 as the first transformation and pca seems to have no usage in this. Classes can not be seperated even with two decision boundaries when X1 is considered. So, PCA did not worked in this case.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="2)">2)<a class="anchor-link" href="#2)">&#182;</a></h4><p>MDS with L2 norm basically tries to obtain the same space and it obtains similar results to PCA which obtains just X1 variable. In case of having two decision boundaries in component, 4 blue observaiton is misclassified. For L1 norm things change 3 of this misclassified points can be classified correctly with 2 decision boundary. For cosine similarity there the plot seems chaotic. Since cosine similarity considers the angles between observations, in terms of classification it makes everything much more complex.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="3)">3)<a class="anchor-link" href="#3)">&#182;</a></h4><p>In this setting using MDS with L1 distance seems to be the most desirable dimensionality reduction method since it allows to construct an interval for red class with just one misclaffied example while PCA has 4 of them.</p>
 
 </div>
 </div>
@@ -15151,7 +15163,7 @@ Difference: Scaled X1-PC1 1.2820719972542827
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>The image seems like a rotated Turkey map. Since there is a linear relationship we can make use of PCA to rotate the MDS cordinates to optain a more appropriate Turkey map.</p>
+<p>The image seems like a rotated Turkey map. Since there is a linear relationship we can make use of PCA to rotate the MDS cordinates to obtain a more appropriate Turkey map.</p>
 
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15287,20 +15299,6 @@ values will transform the series to a position information.</p>
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
