@@ -10,3 +10,6 @@ This [jupyter notebook](https://bu-ie-582.github.io/fall21-harunkivril/HW2/HW2-D
 
 ## Homework3 Distance Information and Linear Models
 This [jupyter notebook](https://bu-ie-582.github.io/fall21-harunkivril/HW3/HW3-Distance Information and Linear Models.html) demonstrates my codes and results for Homework3.
+
+## Homework4 Multiple Instance Learning (MIL)
+This [jupyter notebook](https://bu-ie-582.github.io/fall21-harunkivril/HW4/HW4-Multiple Instance Learning (MIL).html) demonstrates my codes and results for Homework4.
