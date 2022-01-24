@@ -13,3 +13,6 @@ This [jupyter notebook](https://bu-ie-582.github.io/fall21-harunkivril/HW3/HW3-D
 
 ## Homework4 Multiple Instance Learning (MIL)
 This [jupyter notebook](https://bu-ie-582.github.io/fall21-harunkivril/HW4/HW4-Multiple Instance Learning (MIL).html) demonstrates my codes and results for Homework4.
+
+## Final Project Gender Prediction in E-Commerce
+This is the report of [Gender Prediction in E-Commerce](https://bu-ie-582.github.io/fall21-harunkivril/FinalProject/IE_582_Project.pdf)
